@@ -1,0 +1,88 @@
+@media (max-width: 500px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+  /*body(text-align:center;)*/
+  #header-img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:10%;
+  }
+  /* Style the header */
+  .header {
+    padding: 1px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+  }
+  /* Style the top navigation bar */
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  #form{
+    text-align:center;
+  }
+  #video{ 
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+  }
+  #price{
+    text-align:center;
+  }
+  #how-it-work{
+    text-align:center; 
+  }
+  #desc{
+   text-align:center;
+  }
+  .nav-link {
+    display: flex;
+  }
+  form{
+    margin-top:1em;
+  }
+  input[type=submit]{
+    background-color: #4caf50;
+    border:none;
+    color:white;
+    padding: 5px 32px;
+    text-decoration: none;
+    margin:4px 2px;
+    cursor:pointer;
+     }
+  .button {
+    background-color:#4caf50;
+    border:none;
+    color:white;
+    padding:5px 32px;
+    text-align:center;
+    font-size:16px;
+    margin: 4px 2px;
+    cursor:pointer;
+  }
